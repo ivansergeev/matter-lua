@@ -39,3 +39,16 @@ luac.out
 *.x86_64
 *.hex
 
+# LDoc config files
+config.ld
+
+# Editors
+.idea
+.nova
+.vscode
+
+# System
+.DS_Store
+
+# Playdate
+*.pdx/

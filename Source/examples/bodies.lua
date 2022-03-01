@@ -78,8 +78,7 @@ local runner = Runner.create()
 
 
 -- Tick
-
-playdate.debug.setEnabled(true)
+-- playdate.debug.setEnabled(true)
 
 TICK = 1
 --

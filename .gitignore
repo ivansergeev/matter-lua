@@ -51,4 +51,4 @@ config.ld
 .DS_Store
 
 # Playdate
-*.pdx/
+

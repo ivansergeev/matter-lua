@@ -1,3 +1,4 @@
+print('app=538e946b4d1b4a5d8d7f8e4ad72ab6e6')
 
 -- Playdate CoreLibs
 import 'CoreLibs/sprites.lua'
@@ -30,8 +31,8 @@ printT = printTable
 local gfx = playdate.graphics
 
 -- Fonts
-local font = gfx.font.new('fonts/Bitmore-Medieval-table-7-11.png')
-gfx.setFont(font, gfx.font.kVariantNormal)
+-- local font = gfx.font.new('fonts/Bitmore-Medieval-table-7-11.png')
+-- gfx.setFont(font, gfx.font.kVariantNormal)
 
 
 function playdate.update()

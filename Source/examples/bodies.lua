@@ -18,7 +18,7 @@ local render = Render.create({
 		-- wireframes = false, -- FIX ME
 		showAngleIndicator = true,
 		-- showCollisions = true,
-		showIds = true,
+		-- showIds = true,
 		-- showAxes = true,
 		-- showBounds = true,
 		-- showVelocity = true,
@@ -32,17 +32,17 @@ local render = Render.create({
 
 -- Floor
 local path1 = {
-	{x=39.5,y=72.5},
+	{x=0,y=72.5},
 	{x=118.5,y=148.5},
 	{x=288.5,y=163.5},
-	{x=388.5,y=97.5},
-	{x=386.5,y=231.5},
-	{x=32.5,y=229.5},
+	{x=400,y=97.5},
+	{x=400,y=240},
+	{x=0,y=240},
 }
 
 local path2 = {
-	{x=5.5,y=92.5},
-	{x=24.5,y=84.5},
+	{x=0,y=92.5},
+	{x=26,y=84.5},
 	{x=36.5,y=98.5},
 	{x=34.5,y=128.5},
 	{x=18.5,y=164.5},
@@ -63,12 +63,13 @@ local path2 = {
 	{x=322.5,y=165.5},
 	{x=345.5,y=160.5},
 	{x=371.5,y=122.5},
-	{x=395.5,y=137.5},
-	{x=395.5,y=235.5},
-	{x=4.5,y=235.5}
+	{x=400,y=137.5},
+	{x=400,y=240},
+	{x=0,y=240}
 }
 
-local terrain = Bodies.fromVertices(190, 170, { path1 }, {isStatic = true, mass = 1001}, true)
+-- local terrain = Bodies.fromVertices(198, 200, { path1 }, {isStatic = true, mass = 1001}, true)
+local terrain = Bodies.fromVertices(158, 200, { path2 }, {isStatic = true, mass = 1001}, true)
 
 World.add(engine.world, {terrain})
 
@@ -86,6 +87,10 @@ function tick()
 	clear()
 	Runner.tick(runner, engine, TICK)
 	Render.run(render)
+	
+	playdate.graphics.drawText("Ⓐ add", 10, 10)
+	playdate.graphics.drawText("Ⓑ clean", 10, 35)
+	
 	TICK += 1
 end
 
@@ -98,6 +103,7 @@ ft.repeats = true
 function playdate.AButtonDown()
 	World.add(engine.world, { addBody() })
 end
+
 
 function addBody()
 
@@ -115,3 +121,12 @@ function addBody()
 	end
 
 end
+
+-- Clear
+
+-- Press Ⓑ to clean
+
+function playdate.BButtonDown()
+	World.clear(engine.world, true)
+end
+

@@ -1,4 +1,4 @@
-# Matter Lua
+# Matter.lua
 
 Matter Physics Engine for Panic Playdate, written in Lua
 
@@ -9,12 +9,12 @@ Due to the low performance of Lua, this engine is of interest only for studying 
 
 # About
 
-Matter Lua is a port of [Matter.JS](https://brm.io/matter-js/) ([source code](https://github.com/liabru/matter-js)) written by Liam Brummitt
+Matter.lua is a port of [Matter.JS](https://brm.io/matter-js/) ([source code](https://github.com/liabru/matter-js)) written by Liam Brummitt
 
 
 # License
 
-Matter Lua is licensed under The MIT License (MIT)\
+Matter.lua is licensed under The MIT License (MIT)\
 Copyright (c) 2023 Ivan Sergeev\
 Copyright (c) 2014 Liam Brummitt
 

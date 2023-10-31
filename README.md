@@ -1,4 +1,4 @@
-# Playdate Matter
+# PD Matter
 
 Matter Physics Engine for Panic Playdate, written in Lua
 
@@ -9,12 +9,12 @@ WIP
 
 # About
 
-Playdate Matter is a port of [Matter.JS](https://brm.io/matter-js/) ([source code](https://github.com/liabru/matter-js)) written by Liam Brummitt
+PD Matter is a port of [Matter.JS](https://brm.io/matter-js/) ([source code](https://github.com/liabru/matter-js)) written by Liam Brummitt
 
 
 # License
 
-Playdate Matter is licensed under The MIT License (MIT)\
+PD Matter is licensed under The MIT License (MIT)\
 Copyright (c) 2021 Ivan Sergeev\
 Copyright (c) 2014 Liam Brummitt
 

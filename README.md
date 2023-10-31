@@ -14,7 +14,7 @@ Matter Lua is a port of [Matter.JS](https://brm.io/matter-js/) ([source code](ht
 
 # License
 
-PD Matter is licensed under The MIT License (MIT)\
+Matter Lua is licensed under The MIT License (MIT)\
 Copyright (c) 2023 Ivan Sergeev\
 Copyright (c) 2014 Liam Brummitt
 

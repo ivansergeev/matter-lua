@@ -1,0 +1,7 @@
+name=Matter-lua
+author=Ivan Sergeev (ivansergeev@gmail.com)
+description=Matter Physics Engine for Panic Playdate, written in Lua.
+bundleID=com.ivansergeev.matter-lua
+version=0.2
+buildNumber=2
+imagePath=assets/system

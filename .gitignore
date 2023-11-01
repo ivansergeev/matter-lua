@@ -50,5 +50,6 @@ config.ld
 # System
 .DS_Store
 
-# Playdate
+
+Assets/
 
